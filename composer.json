@@ -1,0 +1,26 @@
+{
+	"name": "pfaciana/Debugger",
+	"description": "Debugger",
+	"version": "1.0.0",
+	"homepage": "https://github.com/pfaciana/Debugger",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Phil Faciana",
+			"email": "phil@columbuswebtech.com"
+		}
+	],
+	"autoload": {
+		"files": [
+			"helpers.php"
+		],
+		"classmap": [],
+		"psr-4": {}
+	},
+	"require": {
+		"tracy/tracy": "^2.4",
+		"maximebf/debugbar": "1.*",
+		"ccampbell/chromephp": "^4.1",
+		"raveren/kint": "^1.0"
+	}
+}
